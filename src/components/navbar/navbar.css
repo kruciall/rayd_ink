@@ -1,0 +1,71 @@
+.nav {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav__item {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 2rem;
+  flex: 0 1 auto;
+  
+}
+
+.nav__item a:link {
+  text-decoration: none;
+}
+
+.nav__item a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.nav__item a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+.artistname {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3rem;
+  position: absolute;
+  left: 50%;
+  flex: 0 1 auto;
+  transform: translateX(-50%);
+}
+
+.igIcon {
+ margin-right: 2rem;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.tattoos {
+  display: flex;
+  margin-left: 2rem;
+  justify-content: flex-end;
+
+}
+.contact {
+  display: flex;
+  margin-left: 2rem;
+}
+.about {
+  display: flex;
+  margin-left: 2rem;
+}
