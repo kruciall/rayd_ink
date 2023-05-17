@@ -1,0 +1,16 @@
+.header__container {
+  display: flex;
+  justify-content: center;
+}
+
+.mainImage {
+  position: absolute;
+  height: 500px;
+}
+
+.ighandle {
+  display: grid;
+  justify-content: center;
+
+  position: absolute;
+}
